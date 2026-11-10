@@ -8,8 +8,8 @@
     "node": ">=24.11.0"
   },
   "scripts": {
-    "build": "vite build && node scripts/size.mjs",
-    "dev": "vite build --watch",
+    "build": "node init && vite build && node scripts/size.mjs",
+    "dev": "node init && vite build --watch",
     "type-check": "tsc --noEmit",
     "test": "vitest run",
     "size": "node scripts/size.mjs"

@@ -1,4 +1,3 @@
-.env
 bin/
 .history
 .DS_Store
@@ -8,3 +7,5 @@ bin/
 # `go build` works on a clean checkout.
 /internal/web/dist/*
 !/internal/web/dist/.gitkeep
+config.bat
+node_modules
