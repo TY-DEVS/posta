@@ -33,6 +33,8 @@ services:
       context: .
       dockerfile: docker/Dockerfile
     command: ["worker"]
+    healthcheck:
+      disable: true
     networks:
       - default
     environment:
